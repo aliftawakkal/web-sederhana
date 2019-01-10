@@ -43,6 +43,7 @@ body {
 #artikel-header {
     background-image: url('../img/full-image8.jpg');
     background-position-y: -200px;
+
 }
 
 /* showcase */
@@ -55,19 +56,31 @@ body {
     position: relative;
 }
 
-#showcase h1 {
-    padding-top: 200px;
+#showcase h4 {
+    padding-top: 175px;
+    font-size: 32px;
+    margin-bottom: 0.59090909090909em;
+}
 
-
+#showcase p {
+    font-size: 24px;
+    padding-top: 25px;
 }
 
 .dark-overlay {
-    background-color: rgba(155, 153, 153, 0.5);
+    background-color: rgba(102, 101, 101, 0.5);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     min-height: 100%;
+}
+
+.dark-overlay .display-3,
+.lead {
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* showoff-1 */
@@ -147,4 +160,4 @@ body {
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-devices-width: 479px) {}
