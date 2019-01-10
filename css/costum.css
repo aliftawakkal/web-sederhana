@@ -1,0 +1,86 @@
+body {
+    font: 15px/1.5 Arial;
+    margin: 0;
+    padding: 0;
+    background: url('../img/b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 650px;
+    background: rgb(0, 0, 0, 0.4);
+    padding: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img {
+    width: 150px;
+    height: 220px;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100px;
+}
+
+.box h6 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+    color: #b82424;
+}
+
+
+/* navbar */
+#main-navbar a {
+    border-bottom: 5px solid #f8f9fa;
+    text-transform: uppercase;
+}
+
+#main-navbar a:hover,
+#main-navbar .active {
+    border-bottom-color: black;
+    transition: border-color 500ms;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
